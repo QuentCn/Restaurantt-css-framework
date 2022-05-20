@@ -1,8 +1,34 @@
+
 .selector-for-some-widget 
 {
   box-sizing: content-box;
 }
-.cc-navbar {
-  font-family: 'Tangerine' , sans-serif;
+.rp-navbar {
+  font-family: 'Roboto', sans-serif;
   background-color: rgba(0,0,0, 0.55);
+  box-shadow: 1px 1px 3px rgba(255,255,255, 0.54);
+}
+.rp-navbar .nav-link {
+  border-bottom: 1px solid transparent;
+  transition: padding-bottom .4s easy-in-out, border-color .3s ;
+}
+.rp-navbar .nav-link {
+  
+}
+
+
+.btn-order {
+  color: var(--bs-teal);
+  border-color: var(--bs-teal);
+  transition: 0.55;
+}
+.btn-order:hover,
+.btn-order:active {
+
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/banner1.jpg') center center fixed;
+  height: 1200px;
+
 }

@@ -3,44 +3,108 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
   <!-- Bootstrap core CSS -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
   <!-- CSS du resto/perso-->
 	<link rel="stylesheet" href="assets/css/restaurant.css">
-	<title>Le Schkeel</title>
+
+  <!--titre et barre de nav -->
+
+	<title>Brasserie  Le Schkeel</title>
+
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<div class="card">
-					<div class="card-header">
-						<nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"> Brasserie "Le Schkeel"</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+						<nav class="rp-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100">
+   <div class="container-fluid">
+    <a class="navbar-brand text-uppercase fw-bolder mx-4 py-3" href="#"> Brasserie "Le Schkeel"</a>
+    <button 
+    class="navbar-toggler" 
+    type="button" 
+    data-bs-toggle="collapse" 
+    data-bs-target="#navbarText" 
+    aria-controls="navbarText" 
+    aria-expanded="false" 
+    aria-label="Toggle navigation">
+
+     <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+        <li class="nav-item pe-4">
+          <a class="btn-order nav-link" aria-current="page" href="#">Acceuil</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Nos Menus</a>
+        <li class="nav-item pe-4">
+          <a class="btn-order nav-link" href="#">Nos Menus</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Promotions</a>
+        <li class="nav-item pe-4">
+          <a class="btn-order nav-link" href="#">Promotions</a>
         </li>
       </ul>
-      <span class="navbar-text">
-       Evenements
+      <span class="navbar-item pe-4">
+        <a class="btn btn-order rounded -8" href="#">Contact</a>
       </span>
     </div>
+   </div>
+ </nav>
+
+ <!-- partie sous la barre de nav -->
+
+
+
+ <section class="banner d-flex justify-content-center align-items-center pt-5">
+  <div class="container my-5">
+    <div class="row">
+
+      <!--jumbotron -->
+      <div class="col-md-6">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/jumbo2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/jumbo1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/jumbo3.jpg" class="d-block w-100" alt="...">
+    </div>
   </div>
-</nav>
-<!-- js bootstrap -->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+      </div>
+
+      <!-- commander/event -->
+
+
+      <div class="col-md-6">
+        <button  class="btn btn-order rounded-0 Roboto">Commander</button>
+        <button  class="btn btn-order rounded-0 Roboto">Evenements</button> 
+      </div>
+
+
+ </section>
+
+
+
+
+
+ <!-- js bootstrap -->
+ <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
+   
+   <!-- live server subl text -->
+   <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
 </html>
