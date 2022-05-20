@@ -3,7 +3,7 @@
 
 ## The misson 
 
-So that's the mission we had to do using Bootstrap
+So that's the mission we had to do using Bootstrap :
 
 
 The website must be responsive, at least for small and medium screens. It must at least have five accessible pages: welcome, menu, pictures, restaurants and contact.
