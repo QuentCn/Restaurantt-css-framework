@@ -7,6 +7,7 @@
   font-family: 'Roboto', sans-serif;
   background-color: rgba(0,0,0, 0.55);
   box-shadow: 1px 1px 3px rgba(255,255,255, 0.54);
+  z-index: 99;
 }
 .rp-navbar .nav-link {
   border-bottom: 1px solid transparent;
@@ -33,5 +34,10 @@
 
 }
 .banner .banner-desc {
-  
+    
+}
+
+
+.gal {
+  max-width: 100%;
 }

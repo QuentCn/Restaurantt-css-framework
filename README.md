@@ -32,7 +32,7 @@ SO I try
 
 ## The restaurant page
 
-I'm from belgium so i like beer's and fries and also some of traditionnal dishes from belgium.
+I'm from belgium so i like beer's and fries and also some of traditionnal dishes from belgium (and others contry to but's not the theme of the restaurant).
 
 So the theme of restaurant I choose is a classic restaurant that we call here "brasserie", with beers and traditional dishes or revisited dishes.
 
