@@ -27,3 +27,19 @@ If you want to make an even more complex website feel free to try new things and
 
 
 SO I try
+
+
+
+## The restaurant page
+
+I'm from belgium so i like beer's and fries and also some of traditionnal dishes from belgium.
+
+So the theme of restaurant I choose is a classic restaurant that we call here "brasserie", with beers and traditional dishes or revisited dishes.
+
+There is a total of 5 pages in the web site with :
+- Welcome page
+- about us 
+- pictures gallery 
+- Menu page 
+- contact page
+
